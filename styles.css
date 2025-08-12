@@ -1,0 +1,78 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: #f1f8f7;
+}
+
+/* header */
+header {
+  display: flex;
+  padding: 15px 100px;
+  margin-bottom: 20px;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #222;
+  color: #fff;
+}
+
+header h3 {
+  margin-bottom: 10px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+}
+
+nav li {
+  cursor: pointer;
+}
+
+nav li:hover {
+  text-decoration: underline;
+}
+
+#welcome-section{
+  padding: 20px 50px;
+}
+h1, h2{
+  text-align: center;
+  margin-bottom: 10px;
+  font-size: 30px;
+}
+
+/* welcome section */
+#welcome-section .btn{
+  display: flex;
+  padding: 10px;
+  margin: 20px auto;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: rgb(3, 64, 66);
+  color: #ffffff;
+}
+
+/* About section */
+#about-section{
+  padding: 20px 50px;
+}
+#about-section h3{
+  text-align: center;
+  margin-bottom: 10px;
+  font-size: 20px;
+  color: rgb(3, 64, 66);
+}
+.container{
+  margin-top: 20px;
+  border: solid 1px rgb(3, 64, 66);
+  border-radius: 5px;
+  padding: 20px;
+  background-color: #e4e4e4;
+}
